@@ -1,6 +1,10 @@
 import optparse
 import pyautogui as pg
 import time
+import pyfiglet
+
+text = pyfiglet.figlet_format("v u s a l  a x n d z d e")
+print(text)
 
 
 def get_user_input():
